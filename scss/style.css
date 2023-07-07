@@ -36,6 +36,11 @@ html body header {
   padding-top: 19px;
   padding-bottom: 19px;
   background: #1c1e53;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 html body header nav {
   display: flex;
