@@ -38,6 +38,7 @@ html {
       left: 0;
       right: 0;
       width: 100%;
+      z-index: 99;
       nav {
         display: flex;
         align-items: center;
@@ -554,7 +555,7 @@ html {
     flex-direction: column;
     width: 100%;
     position: fixed;
-    top: 81px;
+    top: 101px;
     z-index: 9;
     left: -100%;
     right: 0;
@@ -565,7 +566,9 @@ html {
   .nav-link {
     padding-top: 20px;
   }
-
+  header {
+    height: 102px;
+  }
   .open {
     left: 0;
   }
